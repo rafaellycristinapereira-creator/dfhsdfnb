@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMaster Cursos | Portal de Informática</title>
+    <!-- Separação de responsabilidades: CSS em arquivo externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. CABEÇALHO E 2. MENU DE NAVEGAÇÃO -->
+    <header class="cabecalho-site">
+        <div class="container cabecalho-conteudo">
+            <a href="#inicio" class="logo-empresa">TechMaster Cursos</a>
+
+            <nav class="menu-navegacao" aria-label="Menu principal">
+                <ul class="lista-links">
+                    <li><a href="#inicio" class="link-menu">Início</a></li>
+                    <li><a href="#cursos" class="link-menu">Cursos</a></li>
+                    <li><a href="#sobre" class="link-menu">Sobre Nós</a></li>
+                    <li><a href="#contato" class="link-menu">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 3. BANNER DE APRESENTAÇÃO -->
+    <section id="inicio" class="banner-apresentacao">
+        <div class="container banner-conteudo">
+            <h1>Domine a Tecnologia e Transforme sua Carreira</h1>
+            <p>Aprenda na prática com cursos atualizados de programação, infraestrutura e ferramentas essenciais para o mercado de trabalho.</p>
+            <a href="#cursos" class="botao-destaque">Conhecer Cursos</a>
+        </div>
+    </section>
+
+    <main>
+        <!-- 4. TRÊS CURSOS DISPONÍVEIS -->
+        <section id="cursos" class="secao-cursos">
+            <div class="container">
+                <h2 class="titulo-secao">Cursos Disponíveis</h2>
+                <p class="subtitulo-secao">Escolha a trilha ideal para o seu objetivo profissional</p>
+
+                <div class="grade-cursos">
+                    <!-- Curso 1 -->
+                    <article class="card-curso">
+                        <span class="etiqueta-nivel">Iniciante</span>
+                        <h3>Informática Essencial e Escritório</h3>
+                        <p>Domine sistemas operacionais, pacotes de escritório, planilhas avançadas e segurança básica na internet.</p>
+                        <div class="rodape-card">
+                            <span class="carga-horaria">Carga horária: 40h</span>
+                            <a href="#contato" class="botao-secundario">Inscrever-se</a>
+                        </div>
+                    </article>
+
+                    <!-- Curso 2 -->
+                    <article class="card-curso">
+                        <span class="etiqueta-nivel">Intermediário</span>
+                        <h3>Desenvolvimento Web Front-End</h3>
+                        <p>Crie sites modernos e responsivos do zero utilizando HTML5 semântico, CSS3 e boas práticas de programação.</p>
+                        <div class="rodape-card">
+                            <span class="carga-horaria">Carga horária: 80h</span>
+                            <a href="#contato" class="botao-secundario">Inscrever-se</a>
+                        </div>
+                    </article>
+
+                    <!-- Curso 3 -->
+                    <article class="card-curso">
+                        <span class="etiqueta-nivel">Avançado</span>
+                        <h3>Redes de Computadores e Suporte</h3>
+                        <p>Aprenda configuração de roteadores, cabeamento estruturado, diagnóstico de hardware e manutenção preventiva.</p>
+                        <div class="rodape-card">
+                            <span class="carga-horaria">Carga horária: 60h</span>
+                            <a href="#contato" class="botao-secundario">Inscrever-se</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SEÇÃO "SOBRE NÓS" -->
+        <section id="sobre" class="secao-sobre">
+            <div class="container sobre-conteudo">
+                <h2 class="titulo-secao">Sobre Nós</h2>
+                <p>
+                    A <strong>TechMaster Cursos</strong> nasceu com o propósito de tornar o ensino de tecnologia acessível, claro e direto ao ponto. Contamos com instrutores atuantes no mercado e uma metodologia focada em projetos reais, preparando nossos alunos para os desafios das empresas modernas.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 6. RODAPÉ COM INFORMAÇÕES DE CONTATO -->
+    <footer id="contato" class="rodape-site">
+        <div class="container rodape-conteudo">
+            <div class="info-contato">
+                <h3>Entre em Contato</h3>
+                <p>E-mail: contato@techmastercursos.com.br</p>
+                <p>Telefone / WhatsApp: (41) 99999-0000</p>
+                <p>Endereço: Av. da Tecnologia, 1000 — Centro</p>
+            </div>
+            <div class="creditos-rodape">
+                <p>&copy; 2026 TechMaster Cursos de Informática. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
